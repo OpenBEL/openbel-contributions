@@ -1,0 +1,2 @@
+1. Add arguments to gene_protein script using argparse module.
+2. Write out namespaces and equivalences.

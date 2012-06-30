@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-06-28+01:00" modified="2011-09-21+01:00" version="20">
+  <accession>Q6GZV8</accession>
+  <name>017L_FRG3G</name>
+  <protein>
+    <recommendedName>
+      <fullName>Uncharacterized protein 017L</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="ORF">FV3-017L</name>
+  </gene>
+  <organism>
+    <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+    <name type="common">FV-3</name>
+    <dbReference type="NCBI Taxonomy" id="654924"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>dsDNA viruses, no RNA stage</taxon>
+      <taxon>Iridoviridae</taxon>
+      <taxon>Ranavirus</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Ambystoma</name>
+    <name type="common">mole salamanders</name>
+    <dbReference type="NCBI Taxonomy" id="8295"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Hyla versicolor</name>
+    <name type="common">chameleon treefrog</name>
+    <dbReference type="NCBI Taxonomy" id="30343"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Notophthalmus viridescens</name>
+    <name type="common">Eastern newt</name>
+    <name type="synonym">Triturus viridescens</name>
+    <dbReference type="NCBI Taxonomy" id="8316"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Rana pipiens</name>
+    <name type="common">Northern leopard frog</name>
+    <dbReference type="NCBI Taxonomy" id="8404"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Rana sylvatica</name>
+    <name type="common">Wood frog</name>
+    <dbReference type="NCBI Taxonomy" id="45438"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+      <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+      <authorList>
+        <person name="Tan W.G."/>
+        <person name="Barkman T.J."/>
+        <person name="Gregory Chinchar V."/>
+        <person name="Essani K."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      <dbReference type="PubMed" id="15165820"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <dbReference type="EMBL" id="AY548484">
+    <property type="protein sequence ID" value="AAT09676.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_031595.1">
+    <property type="nucleotide sequence ID" value="NC_005946.1"/>
+  </dbReference>
+  <dbReference type="GeneId" id="2947737"/>
+  <dbReference type="ProtClustDB" id="CLSP2512393"/>
+  <proteinExistence type="predicted"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <feature type="chain" id="PRO_0000410557" description="Uncharacterized protein 017L">
+    <location>
+      <begin position="1"/>
+      <end position="502"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Poly-Ala">
+    <location>
+      <begin position="425"/>
+      <end position="428"/>
+    </location>
+  </feature>
+  <sequence length="502" mass="53469" checksum="A747EE6F952CBAD7" modified="2004-07-19+01:00" version="1">METMSDYSKEVSEALSALRGELSALSAAISNTVRAGSYSAPVAKDCKAGHCDSKAVLKSLSRSARDLDSAVEAVSSNCEWASSGYGKQIARALRDDAVRVKREVESTRDAVDVVTPSCCVQGLAEEAGKLSEMAAVYRCMATVFETADSHGVREMLAKVDGLKQTMSGFKRLLGKTAEIDGLSDSVIRLGRSIGEVLPATEGKAMRDLVKQCERLNGLVVDGSRKVEEQCSKLRDMASQSYVVADLASQYDVLGGKAQEALSASDALEQAAAVALRAKAAADAVAKSLDSLDVKKLDRLLEQASAVSGLLAKKNDLDAVVTSLAGLEALVAKKDELYKICAAVNSVDKSKLELLNVKPDRLKSLTEQTVVVSQMTTALATFNEDKLDSVLGKYMQMHRFLGMATQLKLMSDSLAEFQPAKMAQMAAAASQLKDFLTDQTVSRLEKVSAAVDATDVTKYASAFSDGGMVSDMTKAYETVKAFAAVVNSLDSKKLKLVAECAKK</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2011-06-28+01:00" modified="2011-09-21+01:00" version="20">
+  <accession>Q6GZT6</accession>
+  <name>040R_FRG3G</name>
+  <protein>
+    <recommendedName>
+      <fullName>Uncharacterized protein 040R</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="ORF">FV3-040R</name>
+  </gene>
+  <organism>
+    <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+    <name type="common">FV-3</name>
+    <dbReference type="NCBI Taxonomy" id="654924"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>dsDNA viruses, no RNA stage</taxon>
+      <taxon>Iridoviridae</taxon>
+      <taxon>Ranavirus</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Ambystoma</name>
+    <name type="common">mole salamanders</name>
+    <dbReference type="NCBI Taxonomy" id="8295"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Hyla versicolor</name>
+    <name type="common">chameleon treefrog</name>
+    <dbReference type="NCBI Taxonomy" id="30343"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Notophthalmus viridescens</name>
+    <name type="common">Eastern newt</name>
+    <name type="synonym">Triturus viridescens</name>
+    <dbReference type="NCBI Taxonomy" id="8316"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Rana pipiens</name>
+    <name type="common">Northern leopard frog</name>
+    <dbReference type="NCBI Taxonomy" id="8404"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Rana sylvatica</name>
+    <name type="common">Wood frog</name>
+    <dbReference type="NCBI Taxonomy" id="45438"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+      <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+      <authorList>
+        <person name="Tan W.G."/>
+        <person name="Barkman T.J."/>
+        <person name="Gregory Chinchar V."/>
+        <person name="Essani K."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      <dbReference type="PubMed" id="15165820"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <dbReference type="EMBL" id="AY548484">
+    <property type="protein sequence ID" value="AAT09699.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_031618.1">
+    <property type="nucleotide sequence ID" value="NC_005946.1"/>
+  </dbReference>
+  <dbReference type="GeneId" id="2947819"/>
+  <dbReference type="ProtClustDB" id="CLSP2512385"/>
+  <proteinExistence type="predicted"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" status="potential">
+    <location>
+      <begin position="1"/>
+      <end position="26"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000410544" description="Uncharacterized protein 040R">
+    <location>
+      <begin position="27"/>
+      <end position="182"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Poly-Thr">
+    <location>
+      <begin position="88"/>
+      <end position="91"/>
+    </location>
+  </feature>
+  <sequence length="182" mass="19577" checksum="FCF64F420039CF35" modified="2004-07-19+01:00" version="1" precursor="true">MIRALCTIVLIAAGVAVALYLSLVYGYYMSVGVQDASWLTALTGNRPDAKVPFFDKAVGEAPEDKVAYTERPYPVSSTQSPTTTQSPTTTTLKPTTMAVLASIGATPTPVVCHNVRGDMQGIACNVVMKKTVAAALKVQPEAKKDNVNAQYRYGMWTPLRRSRSPFGVWNIPKKLAIAAPDV</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2009-06-16+01:00" modified="2011-09-21+01:00" version="14">
+  <accession>Q197A3</accession>
+  <name>057L_IIV3</name>
+  <protein>
+    <recommendedName>
+      <fullName>Uncharacterized protein 057L</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="ORF">IIV3-057L</name>
+  </gene>
+  <organism>
+    <name type="scientific">Invertebrate iridescent virus 3</name>
+    <name type="common">IIV-3</name>
+    <name type="synonym">Mosquito iridescent virus</name>
+    <dbReference type="NCBI Taxonomy" id="345201"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>dsDNA viruses, no RNA stage</taxon>
+      <taxon>Iridoviridae</taxon>
+      <taxon>Chloriridovirus</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Aedes vexans</name>
+    <name type="common">Inland floodwater mosquito</name>
+    <name type="synonym">Culex vexans</name>
+    <dbReference type="NCBI Taxonomy" id="7163"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Culex territans</name>
+    <dbReference type="NCBI Taxonomy" id="42431"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Culiseta annulata</name>
+    <dbReference type="NCBI Taxonomy" id="332058"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Ochlerotatus sollicitans</name>
+    <name type="common">eastern saltmarsh mosquito</name>
+    <dbReference type="NCBI Taxonomy" id="310513"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Ochlerotatus taeniorhynchus</name>
+    <name type="common">Black salt marsh mosquito</name>
+    <name type="synonym">Aedes taeniorhynchus</name>
+    <dbReference type="NCBI Taxonomy" id="329105"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Psorophora ferox</name>
+    <dbReference type="NCBI Taxonomy" id="7183"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="journal article" date="2006" name="J. Virol." volume="80" first="8439" last="8449">
+      <title>Genome of invertebrate iridescent virus type 3 (mosquito iridescent virus).</title>
+      <authorList>
+        <person name="Delhon G."/>
+        <person name="Tulman E.R."/>
+        <person name="Afonso C.L."/>
+        <person name="Lu Z."/>
+        <person name="Becnel J.J."/>
+        <person name="Moser B.A."/>
+        <person name="Kutish G.F."/>
+        <person name="Rock D.L."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1128/JVI.00464-06"/>
+      <dbReference type="PubMed" id="16912294"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <dbReference type="EMBL" id="DQ643392">
+    <property type="protein sequence ID" value="ABF82087.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_654629.1">
+    <property type="nucleotide sequence ID" value="NC_008187.1"/>
+  </dbReference>
+  <dbReference type="GeneId" id="4156307"/>
+  <proteinExistence type="predicted"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <feature type="chain" id="PRO_0000377955" description="Uncharacterized protein 057L">
+    <location>
+      <begin position="1"/>
+      <end position="130"/>
+    </location>
+  </feature>
+  <sequence length="130" mass="14846" checksum="0A95A328C7ABA865" modified="2006-07-11+01:00" version="1">MFKIYRTSCMGQHQSQFLHSGTVVQTVDGVTTTSFFQPCLVFPFSIEIISISLVSLNTTNETKLIKMSIMENSELVDYNESAYTLAHLPGKQMTYLKYPAPFTIRQHQPFFFVHHGDLGDASLTLEYRIK</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2011-06-28+01:00" modified="2011-09-21+01:00" version="23">
+  <accession>Q6GZP7</accession>
+  <name>078L_FRG3G</name>
+  <protein>
+    <recommendedName>
+      <fullName>Uncharacterized protein 078L</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="ORF">FV3-078L</name>
+  </gene>
+  <organism>
+    <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+    <name type="common">FV-3</name>
+    <dbReference type="NCBI Taxonomy" id="654924"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>dsDNA viruses, no RNA stage</taxon>
+      <taxon>Iridoviridae</taxon>
+      <taxon>Ranavirus</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Ambystoma</name>
+    <name type="common">mole salamanders</name>
+    <dbReference type="NCBI Taxonomy" id="8295"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Hyla versicolor</name>
+    <name type="common">chameleon treefrog</name>
+    <dbReference type="NCBI Taxonomy" id="30343"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Notophthalmus viridescens</name>
+    <name type="common">Eastern newt</name>
+    <name type="synonym">Triturus viridescens</name>
+    <dbReference type="NCBI Taxonomy" id="8316"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Rana pipiens</name>
+    <name type="common">Northern leopard frog</name>
+    <dbReference type="NCBI Taxonomy" id="8404"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Rana sylvatica</name>
+    <name type="common">Wood frog</name>
+    <dbReference type="NCBI Taxonomy" id="45438"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+      <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+      <authorList>
+        <person name="Tan W.G."/>
+        <person name="Barkman T.J."/>
+        <person name="Gregory Chinchar V."/>
+        <person name="Essani K."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      <dbReference type="PubMed" id="15165820"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <dbReference type="EMBL" id="AY548484">
+    <property type="protein sequence ID" value="AAT09738.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_031657.1">
+    <property type="nucleotide sequence ID" value="NC_005946.1"/>
+  </dbReference>
+  <dbReference type="GeneId" id="2947797"/>
+  <dbReference type="ProtClustDB" id="CLSP2512496"/>
+  <proteinExistence type="predicted"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <feature type="chain" id="PRO_0000410552" description="Uncharacterized protein 078L">
+    <location>
+      <begin position="1"/>
+      <end position="212"/>
+    </location>
+  </feature>
+  <sequence length="212" mass="23985" checksum="920D63B5324F6A2F" modified="2004-07-19+01:00" version="1">MSIGETFAISAHPEGGALFGTISPGMWNQDFIPWIRKTAVDGHLLIVSGSESELGAWRELGARGLSYDEFTFLCPGDRMVWLSEPTEEWLARKRAPMWRCQAVWIQTEKCRLGKNADATLGRAAPHTDAEHLMGMMEGIRELNVHEPQTMVIVSKIGHKNYFSAAGLVTVSFADLAIRPARWVKDRVFAVVRRDDWESDRFRGLCYKWGIEM</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2009-05-05+01:00" modified="2011-01-11Z" version="2">
+  <accession>P0C9E9</accession>
+  <name>1001R_ASFWA</name>
+  <protein>
+    <recommendedName>
+      <fullName>Protein MGF 100-1R</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="ordered locus">War-018</name>
+  </gene>
+  <organism>
+    <name type="scientific">African swine fever virus (isolate Warthog/Namibia/Wart80/1980)</name>
+    <name type="common">ASFV</name>
+    <dbReference type="NCBI Taxonomy" id="561444"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>dsDNA viruses, no RNA stage</taxon>
+      <taxon>Asfarviridae</taxon>
+      <taxon>Asfivirus</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Ornithodoros</name>
+    <name type="common">relapsing fever ticks</name>
+    <dbReference type="NCBI Taxonomy" id="6937"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Phacochoerus aethiopicus</name>
+    <name type="common">Warthog</name>
+    <dbReference type="NCBI Taxonomy" id="85517"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Phacochoerus africanus</name>
+    <name type="common">Warthog</name>
+    <dbReference type="NCBI Taxonomy" id="41426"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Potamochoerus larvatus</name>
+    <name type="common">Bushpig</name>
+    <dbReference type="NCBI Taxonomy" id="273792"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Sus scrofa</name>
+    <name type="common">Pig</name>
+    <dbReference type="NCBI Taxonomy" id="9823"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+      <title>African swine fever virus genomes.</title>
+      <authorList>
+        <person name="Kutish G.F."/>
+        <person name="Rock D.L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <comment type="function">
+    <text status="by similarity">Plays a role in virus cell tropism, and may be required for efficient virus replication in macrophages.</text>
+  </comment>
+  <comment type="similarity">
+    <text>Belongs to the asfivirus MGF 100 family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AY261366">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <feature type="chain" id="PRO_0000373169" description="Protein MGF 100-1R">
+    <location>
+      <begin position="1"/>
+      <end position="124"/>
+    </location>
+  </feature>
+  <sequence length="124" mass="15327" checksum="C1EC5CC5B6D3E2BB" modified="2009-05-05+01:00" version="1">MVRLFRNPIKCIFYRRSRKIQEKKLRKSLKKLNFYHPPEDCCQIYRLLENVPGGTYFITENMTNDLIMVVKDSVDKKIKSIKLYLHGSYIKIHQHYYINIYMYLMRYTQIYKYPLICFNKYYNI</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2009-05-05+01:00" modified="2011-01-11Z" version="3">
+  <accession>P0C9K3</accession>
+  <name>11014_ASFM2</name>
+  <protein>
+    <recommendedName>
+      <fullName>Protein MGF 110-14L</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="ordered locus">Mal-019</name>
+  </gene>
+  <organism>
+    <name type="scientific">African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983)</name>
+    <name type="common">ASFV</name>
+    <dbReference type="NCBI Taxonomy" id="10500"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>dsDNA viruses, no RNA stage</taxon>
+      <taxon>Asfarviridae</taxon>
+      <taxon>Asfivirus</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Ornithodoros</name>
+    <name type="common">relapsing fever ticks</name>
+    <dbReference type="NCBI Taxonomy" id="6937"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Phacochoerus aethiopicus</name>
+    <name type="common">Warthog</name>
+    <dbReference type="NCBI Taxonomy" id="85517"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Phacochoerus africanus</name>
+    <name type="common">Warthog</name>
+    <dbReference type="NCBI Taxonomy" id="41426"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Potamochoerus larvatus</name>
+    <name type="common">Bushpig</name>
+    <dbReference type="NCBI Taxonomy" id="273792"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Sus scrofa</name>
+    <name type="common">Pig</name>
+    <dbReference type="NCBI Taxonomy" id="9823"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+      <title>African swine fever virus genomes.</title>
+      <authorList>
+        <person name="Kutish G.F."/>
+        <person name="Rock D.L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <comment type="function">
+    <text status="by similarity">Plays a role in virus cell tropism, and may be required for efficient virus replication in macrophages.</text>
+  </comment>
+  <comment type="similarity">
+    <text>Belongs to the asfivirus MGF 110 family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AY261361">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR004848">
+    <property type="entry name" value="V110_vir"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01639">
+    <property type="entry name" value="v110"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" status="potential">
+    <location>
+      <begin position="1"/>
+      <end position="17"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000373225" description="Protein MGF 110-14L">
+    <location>
+      <begin position="18"/>
+      <end position="127"/>
+    </location>
+  </feature>
+  <sequence length="127" mass="14743" checksum="853990598C54FF39" modified="2009-05-05+01:00" version="1" precursor="true">MKVLLELLLGYSVHILAHELPDLPRTQHPPKSELSYWCTYVPQCDFCWDCQDGICKNKITESHFIDSNHSIVNCRVFRDSKTQSCLYEISSKMPNHFSMECLHPRPYTGNEIFMQTWGGGVTINNYL</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2009-05-05+01:00" modified="2011-01-11Z" version="3">
+  <accession>P0C9I4</accession>
+  <name>1107L_ASFP4</name>
+  <protein>
+    <recommendedName>
+      <fullName>Protein MGF 110-7L</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="ordered locus">Pret-017</name>
+  </gene>
+  <organism>
+    <name type="scientific">African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996)</name>
+    <name type="common">ASFV</name>
+    <dbReference type="NCBI Taxonomy" id="561443"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>dsDNA viruses, no RNA stage</taxon>
+      <taxon>Asfarviridae</taxon>
+      <taxon>Asfivirus</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Ornithodoros</name>
+    <name type="common">relapsing fever ticks</name>
+    <dbReference type="NCBI Taxonomy" id="6937"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Phacochoerus aethiopicus</name>
+    <name type="common">Warthog</name>
+    <dbReference type="NCBI Taxonomy" id="85517"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Phacochoerus africanus</name>
+    <name type="common">Warthog</name>
+    <dbReference type="NCBI Taxonomy" id="41426"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Potamochoerus larvatus</name>
+    <name type="common">Bushpig</name>
+    <dbReference type="NCBI Taxonomy" id="273792"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Sus scrofa</name>
+    <name type="common">Pig</name>
+    <dbReference type="NCBI Taxonomy" id="9823"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="submission" date="2003-03" db="EMBL/GenBank/DDBJ databases">
+      <title>African swine fever virus genomes.</title>
+      <authorList>
+        <person name="Kutish G.F."/>
+        <person name="Rock D.L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <comment type="function">
+    <text status="by similarity">Plays a role in virus cell tropism, and may be required for efficient virus replication in macrophages.</text>
+  </comment>
+  <comment type="similarity">
+    <text>Belongs to the asfivirus MGF 110 family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AY261363">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR004848">
+    <property type="entry name" value="V110_vir"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01639">
+    <property type="entry name" value="v110"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <keyword id="KW-0325">Glycoprotein</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" status="potential">
+    <location>
+      <begin position="1"/>
+      <end position="20"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000373206" description="Protein MGF 110-7L">
+    <location>
+      <begin position="21"/>
+      <end position="137"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" status="potential" description="N-linked (GlcNAc...); by host">
+    <location>
+      <position position="69"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" status="potential" description="N-linked (GlcNAc...); by host">
+    <location>
+      <position position="70"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" status="potential" description="N-linked (GlcNAc...); by host">
+    <location>
+      <position position="105"/>
+    </location>
+  </feature>
+  <sequence length="137" mass="15984" checksum="B1CF3B7F436FF5BE" modified="2009-05-05+01:00" version="1" precursor="true">MLVIILGIIGLLASSNLVSSSTSTRVGGHLPLTFDPPENELGYWCTYVESCRFCWDCEDGICTSRVWGNNSTSIVENDYVKYCEVSRWGNLCRYDVEEHIYYSMNCSDPKPWNPYKIARKEWKKNEYLRKDLKKDEF</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2009-06-16+01:00" modified="2011-09-21+01:00" version="14">
+  <accession>Q196T5</accession>
+  <name>125R_IIV3</name>
+  <protein>
+    <recommendedName>
+      <fullName>Uncharacterized protein 125R</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="ORF">IIV3-125R</name>
+  </gene>
+  <organism>
+    <name type="scientific">Invertebrate iridescent virus 3</name>
+    <name type="common">IIV-3</name>
+    <name type="synonym">Mosquito iridescent virus</name>
+    <dbReference type="NCBI Taxonomy" id="345201"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>dsDNA viruses, no RNA stage</taxon>
+      <taxon>Iridoviridae</taxon>
+      <taxon>Chloriridovirus</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Aedes vexans</name>
+    <name type="common">Inland floodwater mosquito</name>
+    <name type="synonym">Culex vexans</name>
+    <dbReference type="NCBI Taxonomy" id="7163"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Culex territans</name>
+    <dbReference type="NCBI Taxonomy" id="42431"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Culiseta annulata</name>
+    <dbReference type="NCBI Taxonomy" id="332058"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Ochlerotatus sollicitans</name>
+    <name type="common">eastern saltmarsh mosquito</name>
+    <dbReference type="NCBI Taxonomy" id="310513"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Ochlerotatus taeniorhynchus</name>
+    <name type="common">Black salt marsh mosquito</name>
+    <name type="synonym">Aedes taeniorhynchus</name>
+    <dbReference type="NCBI Taxonomy" id="329105"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Psorophora ferox</name>
+    <dbReference type="NCBI Taxonomy" id="7183"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="journal article" date="2006" name="J. Virol." volume="80" first="8439" last="8449">
+      <title>Genome of invertebrate iridescent virus type 3 (mosquito iridescent virus).</title>
+      <authorList>
+        <person name="Delhon G."/>
+        <person name="Tulman E.R."/>
+        <person name="Afonso C.L."/>
+        <person name="Lu Z."/>
+        <person name="Becnel J.J."/>
+        <person name="Moser B.A."/>
+        <person name="Kutish G.F."/>
+        <person name="Rock D.L."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1128/JVI.00464-06"/>
+      <dbReference type="PubMed" id="16912294"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <dbReference type="EMBL" id="DQ643392">
+    <property type="protein sequence ID" value="ABF82155.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_654697.1">
+    <property type="nucleotide sequence ID" value="NC_008187.1"/>
+  </dbReference>
+  <dbReference type="GeneId" id="4156336"/>
+  <proteinExistence type="predicted"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <feature type="chain" id="PRO_0000377822" description="Uncharacterized protein 125R">
+    <location>
+      <begin position="1"/>
+      <end position="297"/>
+    </location>
+  </feature>
+  <sequence length="297" mass="33837" checksum="D3392AFE85910D20" modified="2006-07-11+01:00" version="1">MQKSKSIFIPKAFAPQQQAQAPPSKLDNKDPSVEGEGASKPKDDEYLSENVLSHINSTIEKLVKPYEIFPSEDIRPDLFALVTALEAKMEDCIRRNGDTITGPLRLLTQPAANFDVTNKEYVDWIYSIVNTRLDSKWDRNADIDMNHFKIKNIQTPQELHDAATKAYVDEKVELINNLHTIPTHHLWSKATLVGKKTWFFHPGFICPQTLHLSAIGFSTSPNKYKIGEKTKFGELNPTRLYVVVNQEIRSEHVVEKDVQIGYILKRFETPIVLEEGCNFRLMTESCLPDASVNVSFY</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2003-03-25Z" modified="2012-04-18+01:00" version="36">
+  <accession>Q9U408</accession>
+  <name>14331_ECHGR</name>
+  <protein>
+    <recommendedName>
+      <fullName>14-3-3 protein homolog 1</fullName>
+    </recommendedName>
+  </protein>
+  <organism>
+    <name type="scientific">Echinococcus granulosus</name>
+    <dbReference type="NCBI Taxonomy" id="6210"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Platyhelminthes</taxon>
+      <taxon>Cestoda</taxon>
+      <taxon>Eucestoda</taxon>
+      <taxon>Cyclophyllidea</taxon>
+      <taxon>Taeniidae</taxon>
+      <taxon>Echinococcus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2001" name="Parasitology" volume="122" first="281" last="287">
+      <title>Comparative analysis of the 14-3-3 gene and its expression in Echinococcus granulosus and Echinococcus multilocularis metacestodes.</title>
+      <authorList>
+        <person name="Siles-Lucas M."/>
+        <person name="Nunes C.P."/>
+        <person name="Zaha A."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1017/S0031182001007405"/>
+      <dbReference type="MEDLINE" id="21182697"/>
+      <dbReference type="PubMed" id="11289064"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <source>
+      <strain>CW1</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text>Belongs to the 14-3-3 family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AF207904">
+    <property type="protein sequence ID" value="AAF19966.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="ProteinModelPortal" id="Q9U408"/>
+  <dbReference type="SMR" id="Q9U408">
+    <property type="residue range" value="14-239"/>
+  </dbReference>
+  <dbReference type="Go" id="GO:0019904">
+    <property type="term" value="F:protein domain specific binding"/>
+    <property type="evidence" value="IEA:InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="G3DSA:1.20.190.20">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000308">
+    <property type="entry name" value="14-3-3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023409">
+    <property type="entry name" value="14-3-3_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023410">
+    <property type="entry name" value="14-3-3_domain"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR18860">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00244">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF000868">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00305">
+    <property type="entry name" value="1433ZETA"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00101">
+    <property type="entry name" value="14_3_3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF48445">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00796">
+    <property type="entry name" value="1433_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00797">
+    <property type="entry name" value="1433_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at transcript level"/>
+  <feature type="chain" id="PRO_0000058652" description="14-3-3 protein homolog 1">
+    <location>
+      <begin position="1"/>
+      <end position="244"/>
+    </location>
+  </feature>
+  <sequence length="244" mass="27430" checksum="1FBC366D3054937B" modified="2000-05-01+01:00" version="1">MSRLAECTISDTVDELVQRAKLAEQAERYDDMAGACKTMAKMRNELNNEEANLLSVAYKNVVGARRSSWRIMSSIAKKQAGTPLAHQHDIYLKKVEEELIQICNDVLALPVLPITEKIGAEAKIFYYKMMGDYYRYSAEVQEGEQNDKSTEAAEEANQKATSLAEAELSVTHPIRLGLALNFSVFYYEIKNMPEKACSLAKAAFDAAITEVDSIKDETYKDSTLIMQLLRDNLTLWNSECETDS</sequence>
+</entry>
+<entry dataset="Swiss-Prot" created="2006-07-11+01:00" modified="2012-04-18+01:00" version="45">
+  <accession>Q6EUP4</accession>
+  <accession>Q9M3X9</accession>
+  <name>14335_ORYSJ</name>
+  <protein>
+    <recommendedName>
+      <fullName>14-3-3-like protein GF14-E</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>G-box factor 14-3-3 homolog E</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">GF14E</name>
+    <name type="ordered locus">Os02g0580300</name>
+    <name type="ordered locus">LOC_Os02g36974</name>
+    <name type="ORF">B1267B06.30-1</name>
+    <name type="ORF">OJ1115_A05.5-1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Oryza sativa subsp. japonica</name>
+    <name type="common">Rice</name>
+    <dbReference type="NCBI Taxonomy" id="39947"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Viridiplantae</taxon>
+      <taxon>Streptophyta</taxon>
+      <taxon>Embryophyta</taxon>
+      <taxon>Tracheophyta</taxon>
+      <taxon>Spermatophyta</taxon>
+      <taxon>Magnoliophyta</taxon>
+      <taxon>Liliopsida</taxon>
+      <taxon>Poales</taxon>
+      <taxon>Poaceae</taxon>
+      <taxon>BEP clade</taxon>
+      <taxon>Ehrhartoideae</taxon>
+      <taxon>Oryzeae</taxon>
+      <taxon>Oryza</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="submission" date="2000-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Fabian T."/>
+        <person name="Huss S."/>
+        <person name="Sauter M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <source>
+      <tissue>Meristem</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2005" name="Nature" volume="436" first="793" last="800">
+      <title>The map-based sequence of the rice genome.</title>
+      <authorList>
+        <consortium name="International rice genome sequencing project (IRGSP)"/>
+      </authorList>
+      <dbReference type="DOI" id="10.1038/nature03895"/>
+      <dbReference type="PubMed" id="16100779"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>cv. Nipponbare</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2006" name="DNA Res." volume="13" first="53" last="63">
+      <title>The rice 14-3-3 gene family and its involvement in responses to biotic and abiotic stress.</title>
+      <authorList>
+        <person name="Chen F."/>
+        <person name="Li Q."/>
+        <person name="Sun L."/>
+        <person name="He Z."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1093/dnares/dsl001"/>
+      <dbReference type="PubMed" id="16766513"/>
+    </citation>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>INDUCTION</scope>
+    <scope>NOMENCLATURE</scope>
+  </reference>
+  <comment type="function">
+    <text status="by similarity">Is associated with a DNA binding complex that binds to the G box, a well-characterized cis-acting DNA regulatory element found in plant genes.</text>
+  </comment>
+  <comment type="subcellular location" evidence="1">
+    <subcellularLocation>
+      <location>Cytoplasm</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location>Nucleus</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="tissue specificity" evidence="1">
+    <text>Ubiquitous.</text>
+  </comment>
+  <comment type="induction" evidence="1">
+    <text>By wounding, drought and salt stresses, benzothiadiazole (BTH), ethephon, methyl jasmonate (MeJa), hydrogen peroxide, abscisic acid (ABA) and incompatible and compatible races of rice blast fungus (M.grisea) and rice bacterial blight (X.oryzae).</text>
+  </comment>
+  <comment type="similarity">
+    <text>Belongs to the 14-3-3 family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AJ276594">
+    <property type="protein sequence ID" value="CAB77673.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AP003999">
+    <property type="protein sequence ID" value="BAD27625.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AP006161">
+    <property type="protein sequence ID" value="BAD29578.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001047234.1">
+    <property type="nucleotide sequence ID" value="NM_001053769.1"/>
+  </dbReference>
+  <dbReference type="UniGene" id="Os.3440"/>
+  <dbReference type="ProteinModelPortal" id="Q6EUP4"/>
+  <dbReference type="SMR" id="Q6EUP4">
+    <property type="residue range" value="5-241"/>
+  </dbReference>
+  <dbReference type="DIP" id="DIP-46489N"/>
+  <dbReference type="IntAct" id="Q6EUP4"/>
+  <dbReference type="PRIDE" id="Q6EUP4"/>
+  <dbReference type="EnsemblPlants" id="BGIOSGA008496-TA">
+    <property type="protein sequence ID" value="BGIOSGA008496-PA"/>
+    <property type="gene ID" value="BGIOSGA008496"/>
+  </dbReference>
+  <dbReference type="EnsemblPlants" id="LOC_Os02g36974.1">
+    <property type="protein sequence ID" value="LOC_Os02g36974.1"/>
+    <property type="gene ID" value="LOC_Os02g36974"/>
+  </dbReference>
+  <dbReference type="EnsemblPlants" id="LOC_Os02g36974.2">
+    <property type="protein sequence ID" value="LOC_Os02g36974.2"/>
+    <property type="gene ID" value="LOC_Os02g36974"/>
+  </dbReference>
+  <dbReference type="EnsemblPlants" id="LOC_Os02g36974.3">
+    <property type="protein sequence ID" value="LOC_Os02g36974.3"/>
+    <property type="gene ID" value="LOC_Os02g36974"/>
+  </dbReference>
+  <dbReference type="EnsemblPlants" id="LOC_Os02g36974.4">
+    <property type="protein sequence ID" value="LOC_Os02g36974.4"/>
+    <property type="gene ID" value="LOC_Os02g36974"/>
+  </dbReference>
+  <dbReference type="GeneId" id="4329775"/>
+  <dbReference type="KEGG" id="osa:4329775"/>
+  <dbReference type="Gramene" id="Q6EUP4"/>
+  <dbReference type="eggNOG" id="COG5040"/>
+  <dbReference type="OMA" id="DDIKEAP"/>
+  <dbReference type="ProtClustDB" id="CLSN2692876"/>
+  <dbReference type="Go" id="GO:0019904">
+    <property type="term" value="F:protein domain specific binding"/>
+    <property type="evidence" value="IEA:InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="G3DSA:1.20.190.20">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000308">
+    <property type="entry name" value="14-3-3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023409">
+    <property type="entry name" value="14-3-3_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023410">
+    <property type="entry name" value="14-3-3_domain"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR18860">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00244">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF000868">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00305">
+    <property type="entry name" value="1433ZETA"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00101">
+    <property type="entry name" value="14_3_3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF48445">
+    <property type="entry name" value="14-3-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00796">
+    <property type="entry name" value="1433_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00797">
+    <property type="entry name" value="1433_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at transcript level"/>
+  <keyword id="KW-0181">Complete proteome</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <feature type="chain" id="PRO_0000246067" description="14-3-3-like protein GF14-E">
+    <location>
+      <begin position="1"/>
+      <end position="262"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000006" key="1">
+    <source>
+      <dbReference type="PubMed" id="16766513"/>
+    </source>
+  </evidence>
+  <sequence length="262" mass="29692" checksum="2026F19B5414CF2A" modified="2004-08-16+01:00" version="1">MSQPAELSREENVYMAKLAEQAERYEEMVEFMEKVAKTVDSEELTVEERNLLSVAYKNVIGARRASWRIISSIEQKEESRGNEDRCTLIKEYRGKIETELSKICDGILKLLDSHLVPSSTAPESKVFYLKMKGDYYRYLAEFKTGAERKDAAENTMVAYKAAQDIALAELPPTHPIRLGLALNFSVFYYEILNSPDRACNLAKQAFDEAISELDTLSEESYKDSTLIMQLLRDNLTLWTSDISEDAAEEIKEAPKGESGDGQ</sequence>
+</entry>
