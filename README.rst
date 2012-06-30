@@ -6,8 +6,8 @@ The contributions repository has been established around OpenBEL.  It allows int
 If you would like to contribute to OpenBEL please one of the following:
 
  * Anthony Bargnesi
-   * https://github.com/abargnesi
+    * https://github.com/abargnesi
  * Nick Bargnesi
-   * https://github.com/nbargnesi
+    * https://github.com/nbargnesi
  * James McMahon
-   * https://github.com/JamesMcMahon
+    * https://github.com/JamesMcMahon
