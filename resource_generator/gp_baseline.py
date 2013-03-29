@@ -1,12 +1,11 @@
-#!/usr/bin/env python3.2
+#!/usr/bin/env python3
+# coding: utf-8
 #
 # gp_baseline.py
 # inputs:
 #   -o    old namespace/equivalence dictionary file (built with build_equivalence.py)
 #   -n    the directory to store the equivalence data
 #   -v    enables verbose mode
-#
-# outputs:
 
 from common import download
 from configparser import ConfigParser

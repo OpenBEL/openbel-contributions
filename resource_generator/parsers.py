@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.2
+# coding: utf-8
 
 from common import gzip_to_text
 from lxml import etree

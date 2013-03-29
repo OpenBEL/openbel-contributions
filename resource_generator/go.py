@@ -1,4 +1,6 @@
-#!/usr/bin/env python3.2
+#!/usr/bin/env python3
+# coding: utf-8
+
 from lxml import etree
 import csv
 import operator

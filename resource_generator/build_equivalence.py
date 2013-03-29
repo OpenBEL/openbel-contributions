@@ -1,9 +1,10 @@
-#!/usr/bin/env python3.2
+#!/usr/bin/env python3
 #
 # build_equivlence.py
 #
 # inputs: none
 # outputs: namespace/equivalence dictionary file
+
 from html.parser import HTMLParser
 import pickle
 import re
