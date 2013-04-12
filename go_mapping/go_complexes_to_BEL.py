@@ -10,7 +10,8 @@ from string import Template
 
 def bel_term(value,ns,f):
     #create bel term given value, namespace id, and bel function string
-    if ':' in value or ' ' in value:
+    must_quote = ['a','SET']
+    if ':' in value or ' ' in value or value in must_quote:
         s = Template('${f}(${ns}:"${value}")')
     else:
         s = Template('${f}(${ns}:${value})')
