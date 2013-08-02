@@ -1160,6 +1160,10 @@ $TripleStore = {}
     end
     
     def addTriple(subject, property, object)   #  {subj1 => {prop1 => obj1, prop2 => obj2}, }
+      # guard against nil inputs
+      raise TypeError, 'subject cannot be nil' if subject.nil?
+      raise TypeError, 'property cannot be nil' if property.nil?
+      raise TypeError, 'object cannot be nil' if object.nil?
       # assumes one object per prop per subj !!!
       #puts "--- #{subject} - #{property} -- #{object}"
       subjPredsHash = $TripleStore[subject]
@@ -1168,21 +1172,19 @@ $TripleStore = {}
         $TripleStore[subject] = subjPredsHash
       end
       existing_obj = subjPredsHash[property]
-      if object ## ADDED BY DHW TO FIX NULL BUG
-        # if existing_obj && object_property?(property)
-        if existing_obj && !functional_property?(property)
-          if existing_obj.instance_of?(Array)
-            subjPredsHash[property] = (existing_obj << object) unless existing_obj.include?(object)
-          else #elsif
-            unless existing_obj.eql? object
-                subjPredsHash[property] = [existing_obj, object] 
-            end
-          end
+      # if existing_obj && object_property?(property)
+      if existing_obj && !functional_property?(property)
+        if existing_obj.instance_of?(Array)
+          subjPredsHash[property] = (existing_obj << object) unless existing_obj.include?(object)
         else #elsif
-          subjPredsHash[property] = object
+          unless existing_obj.eql? object
+            subjPredsHash[property] = [existing_obj, object] 
+          end
         end
+      else #elsif
+        subjPredsHash[property] = object
+      end
         # $TripleStore[subject] = subjPredsHash
-      end ## ADDED BY DHW TO FIX NULL BUG
     end
     
     def removeTriple(subject, property, object)   #  {subj1 => {prop1 => obj1, prop2 => obj2}, }
