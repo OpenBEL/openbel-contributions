@@ -22,3 +22,9 @@ Getting Started
 You can use the `resource generator`_ as a starting point.
 
 .. _resource generator: https://github.com/OpenBEL/openbel-contributions/tree/master/resource_generator
+
+
+Licensing
+---------
+
+All contributions need to be made under the Apache 2.0 license or a compatible license.
