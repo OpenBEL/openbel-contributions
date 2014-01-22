@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+
+<project name='kampy' default='compile' basedir='.'>
+
+    <property environment='env'/>
+
+    <path id='libs'>
+        <fileset dir='lib'>
+            <include name='*.jar'/>
+        </fileset>
+    </path>
+
+    <target name='clean'>
+        <delete dir='build'/>
+    </target>
+
+    <target name='compile'
+        description='compiles the source'>
+        <mkdir dir='build'/>
+        <javac srcdir='src'
+            classpathref='libs'
+            includeantruntime='false'
+            source='1.7'
+            debug='on'
+            destdir='build'
+            debuglevel='lines,vars,source'/>
+    </target>
+
+    <target name='check'>
+        <fail unless='env.BELFRAMEWORK_HOME'/>
+    </target>
+
+    <target name='run' depends='check, run-without-arg, run-with-arg'/>
+
+    <target name='run-without-arg' depends='compile' unless='KAM'>
+        <java classname='kampy.Main'
+            classpathref='libs'
+            classpath='build'
+            dir='build'
+            spawn='false'
+            fork='true'>
+        </java>
+    </target>
+
+    <target name='run-with-arg' depends='compile' if='KAM'>
+        <java classname='kampy.Main'
+            classpathref='libs'
+            classpath='build'
+            dir='build'
+            spawn='false'
+            fork='true'>
+            <arg value="${KAM}"/>
+            <arg value="${FILE}"/>
+        </java>
+    </target>
+
+</project>
