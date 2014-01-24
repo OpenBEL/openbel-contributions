@@ -11,8 +11,6 @@ for kam in ${kams[@]}; do
     xml+=".xml"
     echo -e "\t$kam -> $xml"
 done
-echo "[ENTER] when ready, [CTRL-C] to cancel"
-read
 
 for kam in ${kams[@]}; do
     xml=$(echo $kam | tr ' ' '_' | tr '-' '_' | tr '[[:upper:]]' '[[:lower:]]')

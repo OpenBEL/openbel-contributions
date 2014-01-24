@@ -11,8 +11,6 @@ for kam in ${kams[@]}; do
     mod+=".py"
     echo -e "\t$kam -> $mod"
 done
-echo "[ENTER] when ready, [CTRL-C] to cancel"
-read
 
 for kam in ${kams[@]}; do
     mod=$(echo $kam | tr ' ' '_' | tr '-' '_' | tr '[[:upper:]]' '[[:lower:]]')
