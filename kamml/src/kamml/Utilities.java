@@ -35,6 +35,7 @@ class Utilities {
     static String makeNode(String id,
                            String function,
                            String label) {
+        label = label.replace("&", "&amp;");
         label = label.replace("\"", "&quot;");
         label = label.replace("'", "&apos;");
         return format(NODE_FMT, id, function, label);
