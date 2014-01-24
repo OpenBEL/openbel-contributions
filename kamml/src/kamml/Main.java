@@ -15,6 +15,9 @@
  */
 package kamml;
 
+import static kamml.Constants.*;
+import static kamml.Utilities.*;
+
 import static java.lang.String.format;
 import static org.openbel.framework.common.cfg.SystemConfiguration.*;
 
@@ -73,24 +76,40 @@ class Main {
         File file = new File(filearg);
         FileWriter fw = new FileWriter(file);
         out("Using file \"" + file.getAbsolutePath() + "\".");
-        fw.close();
-        file.close();
+
+        fw.write(HEADER);
+        fw.write(makeKey("key0", "graph", "name"));
+        fw.write(makeKey("key1", "node", "function"));
+        fw.write(makeKey("key2", "node", "label"));
+        fw.write(makeKey("key3", "edge", "relationship"));
+
+        fw.write(GRAPH);
+        fw.write(makeData("key0", name));
 
         KAMStoreDao dao = new KAMStoreDaoImpl(ki.getSchemaName(), dbc);
 
         AllocatingIterator<SimpleKAMNode> nodeiter = dao.iterateNodes();
         while (nodeiter.hasNext()) {
             SimpleKAMNode node = nodeiter.next();
+            int id = node.getID();
+            String function = node.getFunction().getDisplayValue();
+            String lbl = node.getLabel();
+            fw.write(makeNode("n" + id, function, lbl));
         }
         nodeiter.close();
 
         AllocatingIterator<SimpleKAMEdge> edgeiter = dao.iterateEdges();
         while (edgeiter.hasNext()) {
             SimpleKAMEdge edge = edgeiter.next();
-            int srcID = edge.getSourceID();
-            int tgtID = edge.getTargetID();
+            int id = edge.getID();
+            String rel = edge.getRelationship().getDisplayValue();
+            int src = edge.getSourceID();
+            int tgt = edge.getTargetID();
+            fw.write(makeEdge("e" + id, "n" + src, "n" + tgt, rel));
         }
+        fw.write(FOOTER);
         edgeiter.close();
+        fw.close();
     }
 
 }
