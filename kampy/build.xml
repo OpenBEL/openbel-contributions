@@ -20,7 +20,7 @@
         <javac srcdir='src'
             classpathref='libs'
             includeantruntime='false'
-            source='1.7'
+            source='1.6'
             debug='on'
             destdir='build'
             debuglevel='lines,vars,source'/>
