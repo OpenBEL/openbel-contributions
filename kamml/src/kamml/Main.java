@@ -92,6 +92,7 @@ class Main {
         while (nodeiter.hasNext()) {
             SimpleKAMNode node = nodeiter.next();
             int id = node.getID();
+            id = id - 1;
             String function = node.getFunction().getDisplayValue();
             String lbl = node.getLabel();
             fw.write(makeNode("n" + id, function, lbl));
@@ -102,9 +103,12 @@ class Main {
         while (edgeiter.hasNext()) {
             SimpleKAMEdge edge = edgeiter.next();
             int id = edge.getID();
+            id = id - 1;
             String rel = edge.getRelationship().getDisplayValue();
             int src = edge.getSourceID();
+            src = src - 1;
             int tgt = edge.getTargetID();
+            tgt = tgt - 1;
             fw.write(makeEdge("e" + id, "n" + src, "n" + tgt, rel));
         }
         fw.write(FOOTER);
