@@ -55,10 +55,11 @@ class Constants {
                    "<data key=\"key2\">%s</data></node>\n";
 
         EDGE_FMT = "<edge id=\"%s\" source=\"%s\" target=\"%s\">" +
-                   "<data key=\"key3\">%s</data></edge>\n";
+                   "<data key=\"key3\">%s</data>" +
+                   "<data key=\"key4\">%s</data></edge>\n";
 
         KEY_FMT = "<key id=\"%s\" for=\"%s\" attr.name=\"%s\" attr." +
-                  "type=\"string\"/>\n";
+                  "type=\"%s\"/>\n";
 
         FOOTER = "</graph></graphml>\n";
 

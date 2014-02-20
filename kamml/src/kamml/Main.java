@@ -20,6 +20,7 @@ import static kamml.Utilities.*;
 
 import static java.lang.String.format;
 import static org.openbel.framework.common.cfg.SystemConfiguration.*;
+import static org.openbel.framework.common.enums.RelationshipType.*;
 
 import java.io.*;
 import java.util.*;
@@ -78,10 +79,11 @@ class Main {
         out("Using file \"" + file.getAbsolutePath() + "\".");
 
         fw.write(HEADER);
-        fw.write(makeKey("key0", "graph", "name"));
-        fw.write(makeKey("key1", "node", "function"));
-        fw.write(makeKey("key2", "node", "label"));
-        fw.write(makeKey("key3", "edge", "relationship"));
+        fw.write(makeKey("key0", "graph", "name", "string"));
+        fw.write(makeKey("key1", "node", "function", "string"));
+        fw.write(makeKey("key2", "node", "label", "string"));
+        fw.write(makeKey("key3", "edge", "relationship", "string"));
+        fw.write(makeKey("key4", "edge", "causal", "boolean"));
 
         fw.write(GRAPH);
         fw.write(makeData("key0", name));
@@ -104,12 +106,27 @@ class Main {
             SimpleKAMEdge edge = edgeiter.next();
             int id = edge.getID();
             id = id - 1;
-            String rel = edge.getRelationship().getDisplayValue();
+            RelationshipType rt = edge.getRelationship();
+            String rel = rt.getDisplayValue();
             int src = edge.getSourceID();
             src = src - 1;
             int tgt = edge.getTargetID();
             tgt = tgt - 1;
-            fw.write(makeEdge("e" + id, "n" + src, "n" + tgt, rel));
+            int causal;
+            switch (rt) {
+                case INCREASES:
+                case DECREASES:
+                case DIRECTLY_INCREASES:
+                case DIRECTLY_DECREASES:
+                case CAUSES_NO_CHANGE:
+                case RATE_LIMITING_STEP_OF:
+                    causal = 1;
+                    break;
+                default:
+                    causal = 0;
+                    break;
+            }
+            fw.write(makeEdge("e" + id, "n" + src, "n" + tgt, rel, causal));
         }
         fw.write(FOOTER);
         edgeiter.close();

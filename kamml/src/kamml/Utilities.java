@@ -45,15 +45,17 @@ class Utilities {
     static String makeEdge(String id,
                            String source,
                            String target,
-                           String relationship) {
-        return format(EDGE_FMT, id, source, target, relationship);
+                           String relationship,
+                           int causal) {
+        return format(EDGE_FMT, id, source, target, relationship, causal);
     }
 
     /** Create a key element. */
     static String makeKey(String id,
                           String for_,
-                          String attrname) {
-        return format(KEY_FMT, id, for_, attrname);
+                          String attrname,
+                          String attrtype) {
+        return format(KEY_FMT, id, for_, attrname, attrtype);
     }
 
 }
