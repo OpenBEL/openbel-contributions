@@ -31,6 +31,12 @@ class Utilities {
         return format(DATA_FMT, key, value);
     }
 
+    /** Create a data element. */
+    static String makeData(String key,
+                           int value) {
+        return format(DATA_FMT, key, value);
+    }
+
     /** Create a node element. */
     static String makeNode(String id,
                            String function,

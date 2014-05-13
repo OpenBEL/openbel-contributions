@@ -84,11 +84,15 @@ class Main {
         fw.write(makeKey("key2", "node", "label", "string"));
         fw.write(makeKey("key3", "edge", "relationship", "string"));
         fw.write(makeKey("key4", "edge", "causal", "boolean"));
+        fw.write(makeKey("key5", "graph", "edgecount", "int"));
+        fw.write(makeKey("key6", "graph", "nodecount", "int"));
 
         fw.write(GRAPH);
         fw.write(makeData("key0", name));
 
         KAMStoreDao dao = new KAMStoreDaoImpl(ki.getSchemaName(), dbc);
+        fw.write(makeData("key5", dao.countEdges()));
+        fw.write(makeData("key6", dao.countNodes()));
 
         AllocatingIterator<SimpleKAMNode> nodeiter = dao.iterateNodes();
         while (nodeiter.hasNext()) {
