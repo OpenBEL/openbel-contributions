@@ -9,5 +9,7 @@ if [ $# -ne 2 ]; then
     exit 1
 fi
 
-ant -DKAM="$1" -DFILE="$2" run
+export KAM="$1"
+export FILE="$2"
+ant run
 

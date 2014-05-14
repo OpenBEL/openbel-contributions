@@ -34,7 +34,7 @@
 
     <target name='run' depends='check, run-without-arg, run-with-arg'/>
 
-    <target name='run-without-arg' depends='compile' unless='KAM'>
+    <target name='run-without-arg' depends='compile' unless='env.KAM'>
         <java classname='kamml.Main'
             classpathref='libs'
             classpath='build'
@@ -44,15 +44,15 @@
         </java>
     </target>
 
-    <target name='run-with-arg' depends='compile' if='KAM'>
+    <target name='run-with-arg' depends='compile' if='env.KAM'>
         <java classname='kamml.Main'
             classpathref='libs'
             classpath='build'
             dir='build'
             spawn='false'
             fork='true'>
-            <arg value="${KAM}"/>
-            <arg value="${FILE}"/>
+            <arg value="${env.KAM}"/>
+            <arg value="${env.FILE}"/>
         </java>
     </target>
 
